@@ -56,6 +56,9 @@ A handy reference for common Git commands, organized by workflow stage.
   `git branch`
 - Delete branch:  
   `git branch -d <name>`
+- Merge branch
+  git checkout <source branch>
+  git merge <destination branch>
 
 ---
 

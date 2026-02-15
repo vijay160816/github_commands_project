@@ -1,5 +1,5 @@
 # Demonstrating Project with git commands
-A handy reference for common Git commands, organized by workflow stage.
+A handy reference for common Git commands, organized by workflow stage...
 
 ---
 

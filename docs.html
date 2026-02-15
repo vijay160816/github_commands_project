@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docs - My Docker Project</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f0f2f5; }
+    header { background:#007acc; color:white; padding:15px; text-align:center; }
+    nav { background:#005f99; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    .content { padding:40px; text-align:left; max-width:800px; margin:auto; }
+    h2 { color:#007acc; }
+    footer { background:#333; color:white; text-align:center; padding:15px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 My Docker Project</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="docs.html">Docs</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section class="content">
+    <h2>Documentation</h2>
+    <p>Follow these steps to run the project:</p>
+    <ol>
+      <li>Clone the repository or copy the HTML files.</li>
+      <li>Run an Nginx container and mount the project folder:
+        <pre>docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx</pre>
+      </li>
+      <li>Open <code>http://localhost:8080</code> in your browser.</li>
+    </ol>
+    <p>You can extend this project by adding CSS, JavaScript, or backend services.</p>
+  </section>
+  <footer>
+    <p>&copy; 2026 My Docker Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
